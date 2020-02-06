@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.navbar ul {
+ margin: 0;
+ padding: 0;
+}
+.navbar ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+
+}
+.search form{
+    display: flex;
+    margin: 0 10px;
+}
+.searchInput{
+    border: 0;
+    widows: 0;
+    transition: 0.1s ease-in;
+}
+.searchInput.active{
+    width: 150px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
